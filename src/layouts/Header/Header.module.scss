@@ -1,0 +1,58 @@
+@import '../../scss/mixin/media';
+
+.header :global {
+  height: 0px;
+  * {
+    transition: ease-in-out 0.3s;
+  }
+  nav {
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+    ul {
+      gap: 20px;
+      .nav-title {
+        font-size: 36px;
+        font-weight: bold;
+        color: #fff;
+        text-shadow: 2px 2px 5px #fff;
+      }
+      li {
+        a {
+          position: relative;
+          color: rgba(255, 255, 255, 0.6);
+          font-size: 20px;
+          &::before {
+            content: '';
+            position: absolute;
+            left: 0px;
+            bottom: -4px;
+
+            background-color: #18d26e;
+
+            height: 2px;
+            width: 0px;
+
+            transition: all 0.3s ease-in-out 0s;
+          }
+          &.active::before {
+            width: 100%;
+          }
+          &.active {
+            color: #ffff;
+          }
+        }
+        a:hover {
+          color: #fff;
+          &::before {
+            width: 100%;
+            transition: all 0.3s ease-in-out 0s;
+          }
+        }
+      }
+      @include media-md {
+        display: none !important;
+      }
+    }
+  }
+}

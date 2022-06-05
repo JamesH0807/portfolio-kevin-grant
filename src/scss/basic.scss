@@ -1,0 +1,41 @@
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.ms-auto {
+  margin-left: auto;
+}
+.me-auto {
+  margin-right: auto;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-space-between {
+  justify-content: space-between;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+ul, li {
+  list-style-type: none;
+}
