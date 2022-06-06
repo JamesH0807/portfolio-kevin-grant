@@ -1,7 +1,10 @@
 @import '../../scss/mixin/media';
 
 .header :global {
-  height: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+
   * {
     transition: ease-in-out 0.3s;
   }

@@ -12,15 +12,27 @@
     gap: 40px;
     transition: ease-in-out 0.3s;
     .title {
-      font-size: 60px;
+      font-size: 48px;
       color: #fff;
     }
     .description {
       color: rgba(255, 255, 255, 0.8);
-      font-size: 40px;
+      font-size: 32px;
       font-weight: 400;
       strong {
+        position: relative;
         color: #fff;
+        &::before {
+          content: '';
+          position: absolute;
+          left: 0px;
+          bottom: -4px;
+
+          background-color: #18d26e;
+
+          height: 2px;
+          width: 100%;
+        }
       }
     }
     .network {

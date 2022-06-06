@@ -1,5 +1,55 @@
 @import '../../scss/mixin/media';
 
 .contactpage :global {
+  padding-top: 75px;
+  height: 100vh;
+  overflow: auto;
+  .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background: #000000e6;
+    h1 {
+      position: relative;
+      font-size: 60px;
+    }
+    h2 {
+      font-size: 32px;
+      font-weight: 400;
+    }
+    .contact-item {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      .item {
+        position: relative;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.08);
+        width: calc(50% - 10px);
 
+        display: flex;
+        align-items: center;
+        
+        gap: 20px;
+        i {
+          width: 50px;
+          height: 50px;
+          background: rgba(255,255,255,0.1);
+          border-radius: 50%;
+          font-size: 24px;
+          color: #18d26e;
+          text-align: center;
+          padding-top: 12px;
+        }
+        .info {
+          display: grid;
+          gap: 10px;
+          .info-title {
+            color: rgba(255, 255, 255, 0.7)
+          }
+        }
+      }
+    }
+  }
 }

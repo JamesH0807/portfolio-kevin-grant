@@ -1,4 +1,32 @@
 .App {
   background: url('./images/home-background.jpg') no-repeat;
   background-size: cover;
+
+  // overflow: hidden;
+  // -ms-overflow-style: none;
+  // scrollbar-width: none;
+  main {
+    max-height: calc(100% - 75px);
+  }
+}
+
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: all 400ms ease;
+}
+.fade-enter-done {
+  opacity: 1;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 1;
+  transition: all 400ms ease;
+}
+.fade-exit-done {
+  opacity: 0;
 }
