@@ -1,56 +1,25 @@
 @import '../../scss/mixin/media';
 
 .homepage :global {
-  padding-top: 75px;
   height: 100vh;
-  display: flex;
-  align-items: center;
-
-  .content {
-    width: 70%;
-    display: grid;
-    gap: 40px;
-    transition: ease-in-out 0.3s;
-    .title {
-      font-size: 48px;
-      color: #fff;
-    }
-    .description {
-      color: rgba(255, 255, 255, 0.8);
-      font-size: 32px;
-      font-weight: 400;
-      strong {
-        position: relative;
-        color: #fff;
-        &::before {
-          content: '';
-          position: absolute;
-          left: 0px;
-          bottom: -4px;
-
-          background-color: #18d26e;
-
-          height: 2px;
-          width: 100%;
-        }
+  background-image: url('../../../public/images/home-background.jpg');
+  background-size: cover;
+  .container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    .content {
+      h1 {
+        font-size: 80px;
+        line-height: 100px;
+        text-align: center;
       }
-    }
-    .network {
-      display: flex;
-      gap: 20px;
-      a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        width: 50px;
-        height: 50px;
-
-        border-radius: 50%;
-        background: rgba(255, 255, 255, 0.1);
-
-        font-size: 20px;
-        color: #fff;
+      p {
+        font-size: 27px;
+        line-height: 36px;
+        color: #E3E3E3;
+        text-align: center;
       }
     }
   }

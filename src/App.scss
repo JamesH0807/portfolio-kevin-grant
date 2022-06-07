@@ -1,32 +1,32 @@
+@import './scss/mixin/media';
+
 .App {
-  background: url('./images/home-background.jpg') no-repeat;
-  background-size: cover;
-
-  // overflow: hidden;
-  // -ms-overflow-style: none;
-  // scrollbar-width: none;
-  main {
-    max-height: calc(100% - 75px);
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    color: #fff;
   }
-}
 
-.fade-enter {
-  opacity: 0;
-}
-.fade-enter-active {
-  opacity: 1;
-  transition: all 400ms ease;
-}
-.fade-enter-done {
-  opacity: 1;
-}
-.fade-exit {
-  opacity: 1;
-}
-.fade-exit-active {
-  opacity: 1;
-  transition: all 400ms ease;
-}
-.fade-exit-done {
-  opacity: 0;
+  a,
+  a:hover,
+  a:visited {
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 54px;
+    line-height: 81px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+  }
 }

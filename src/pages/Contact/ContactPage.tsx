@@ -39,12 +39,12 @@ const ContactPage = () => {
   return (
     <div className={styles.contactpage}>
       <div className='container'>
-        <h1>CONTACT ME</h1>
+        <h1 className='theme-color'>CONTACT ME</h1>
         <h2>Always open to work (remote preferred)</h2>
         <div className='contact-item'>
           {contactInfo.map((item, index) => (
             <div className='item' key={index}>
-                <i className={item.icon}></i>
+              <i className={item.icon}></i>
               <div className='info'>
                 <h3 className='info-title'>{item.title}</h3>
                 <p className='info-content'>{item.content}</p>

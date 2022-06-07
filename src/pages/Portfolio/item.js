@@ -1,0 +1,81 @@
+const items = [
+  {
+    image_url: '/images/service.png',
+    title: 'NFT Marketplace',
+    site_url: 'testnet.sundrip.io',
+    skill_used: 'React | Redux | Node | Web3 | Solidity | Audit',
+    detail: 'Lorem lpsum sit amet dolar',
+  },
+  {
+    image_url: '/images/service.png',
+    title: 'NFT Marketplace',
+    site_url: 'testnet.sundrip.io',
+    skill_used: 'React | Redux | Node | Web3 | Solidity | Audit',
+    detail: 'Lorem lpsum sit amet dolar',
+  },
+  {
+    image_url: '/images/service.png',
+    title: 'NFT Marketplace',
+    site_url: 'testnet.sundrip.io',
+    skill_used: 'React | Redux | Node | Web3 | Solidity | Audit',
+    detail: 'Lorem lpsum sit amet dolar',
+  },
+  {
+    image_url: '/images/service.png',
+    title: 'NFT Marketplace',
+    site_url: 'testnet.sundrip.io',
+    skill_used: 'React | Redux | Node | Web3 | Solidity | Audit',
+    detail: 'Lorem lpsum sit amet dolar',
+  },
+  {
+    image_url: '/images/service.png',
+    title: 'NFT Marketplace',
+    site_url: 'testnet.sundrip.io',
+    skill_used: 'React | Redux | Node | Web3 | Solidity | Audit',
+    detail: 'Lorem lpsum sit amet dolar',
+  },
+  {
+    image_url: '/images/service.png',
+    title: 'NFT Marketplace',
+    site_url: 'testnet.sundrip.io',
+    skill_used: 'React | Redux | Node | Web3 | Solidity | Audit',
+    detail: 'Lorem lpsum sit amet dolar',
+  },
+  {
+    image_url: '/images/service.png',
+    title: 'NFT Marketplace',
+    site_url: 'testnet.sundrip.io',
+    skill_used: 'React | Redux | Node | Web3 | Solidity | Audit',
+    detail: 'Lorem lpsum sit amet dolar',
+  },
+  {
+    image_url: '/images/service.png',
+    title: 'NFT Marketplace',
+    site_url: 'testnet.sundrip.io',
+    skill_used: 'React | Redux | Node | Web3 | Solidity | Audit',
+    detail: 'Lorem lpsum sit amet dolar',
+  },
+  {
+    image_url: '/images/service.png',
+    title: 'NFT Marketplace',
+    site_url: 'testnet.sundrip.io',
+    skill_used: 'React | Redux | Node | Web3 | Solidity | Audit',
+    detail: 'Lorem lpsum sit amet dolar',
+  },
+  {
+    image_url: '/images/service.png',
+    title: 'NFT Marketplace',
+    site_url: 'testnet.sundrip.io',
+    skill_used: 'React | Redux | Node | Web3 | Solidity | Audit',
+    detail: 'Lorem lpsum sit amet dolar',
+  },
+  {
+    image_url: '/images/service.png',
+    title: 'NFT Marketplace',
+    site_url: 'testnet.sundrip.io',
+    skill_used: 'React | Redux | Node | Web3 | Solidity | Audit',
+    detail: 'Lorem lpsum sit amet dolar',
+  },
+]
+
+export default items
